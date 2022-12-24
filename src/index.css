@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -15,6 +17,7 @@ body {
 .navbar {
   background-color: rgba(0, 0, 0, 0.641);
   width: 100%;
+  overflow: hidden;
   height: 100px;
 }
 
@@ -24,6 +27,16 @@ body {
   background-size: cover;
   margin-top: 0%;
   padding-top: 0%;
+}
+
+.tag {
+  text-align: center;
+}
+
+.slick-slide img {
+  margin: auto;
+  width: 50%;
+  height: 50%;
 }
 
 .navbar li {
@@ -140,4 +153,52 @@ body {
   justify-content: center;
   text-align: center;
   font-weight: 100;
+}
+
+.cols {
+  float: left;
+  width: 50%;
+}
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rows {
+  padding-top: 60px;
+}
+
+.cont_img {
+  padding-top: 50px;
+  padding-left: 100px;
+}
+.cont_head {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 60px;
+}
+.cont_subhead {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+.contact_group {
+  padding-top: 50px;
+  font-family: 'Bitter', serif;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  letter-spacing: 4px;
+}
+
+.foot_style {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 100px;
+}
+.made_with {
+  padding-top: 25px;
+  font-family: 'Bitter', serif;
+  font-family: 'Dosis', sans-serif;
 }

@@ -1,18 +1,21 @@
 import React from 'react';
 import logo from '../images/logo.png';
+import { Link } from 'react-router-dom';
+// import ScrollToTop from './ScrollToTop';
 
 const Home = () => {
+
     return (
         <div className='home'>
             <nav className='navbar'>
                 <ul>
                     <div>
                         <img src={logo} alt='logo'/>
-                        <li><a href={"www.google.com"}>Login/Signup</a></li>
-                        <li><a href={"www.google.com"}>Contact</a></li>
-                        <li><a href={"www.google.com"}>Services</a></li>
-                        <li><a href={"www.google.com"}>About</a></li>
-                        <li><a href={"www.google.com"}>Home</a></li>
+                        <li><Link>Login/Signup</Link></li>
+                        <li><Link>Contact</Link></li>
+                        <li><Link to="/#services">Services</Link></li>
+                        <li><Link to="/#brands">Brands</Link></li>
+                        <li><Link>About</Link></li>
                     </div>
                 </ul>
             </nav>

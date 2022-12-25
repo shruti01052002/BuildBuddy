@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,6 +11,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -84,6 +84,7 @@ body {
   width: 150px;
   font-weight: bold;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .explore {
@@ -101,7 +102,6 @@ body {
   align-content: center;
   padding-top: 30px;
 }
-
 .card {
   float: left;
   width: 33.33%;
@@ -115,24 +115,6 @@ body {
   content: "";
   clear: both;
   display: table;
-}
-
-.card-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  background-color: rgba(0, 0, 0, 0.641);
-  border: none;
-  border-radius: 10px;
-  color: white;
-  height: 40px;
-  max-width: 220px;
-  font-size: 22px;
-  font-weight: bold;
-  font-family: 'League Spartan', sans-serif;
-  letter-spacing: 2px;
-  cursor: pointer;
-  transform: translate(-50%, -50%);
 }
 
 .image:hover {
@@ -196,9 +178,17 @@ body {
   color: white;
   text-align: center;
   height: 100px;
+  margin-top: 50px;
 }
 .made_with {
   padding-top: 25px;
   font-family: 'Bitter', serif;
   font-family: 'Dosis', sans-serif;
+}
+.button_div{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* color: rgb(54, 116, 186); */
 }

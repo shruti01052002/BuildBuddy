@@ -1,19 +1,21 @@
 import React from "react";
-import Home from './components/Home';
-import Services from "./components/Services";
-import Brands from "./components/Brands";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-// import { Routes, Route } from "react-router-dom";
+import LandingPage from "./components/LandingPage";
+import { Routes, Route } from "react-router-dom";
+import Materials from "./materialcomp/Materials";
 
 const App = () => {
     return (
         <>
-            <Home />
-            <Services />
-            <Brands />
-            <Contact />
-            <Footer />
+            <Routes>
+                <Route path="/" element={<LandingPage />} />
+                <Route path="/materials/cement" element={<Materials />} />
+                <Route path="/materials/bricks" element={<Materials />} />
+                <Route path="/materials/steel" element={<Materials />} />
+                <Route path="/materials/concrete" element={<Materials />} />
+                <Route path="/materials/sand" element={<Materials />} />
+                <Route path="/materials/glass" element={<Materials />} />
+                <Route path="/materials/timber" element={<Materials />} />
+            </Routes>
         </>
     );
 }

@@ -13,7 +13,9 @@ const Brands = () => {
                 ease of wear, and durability.</h2>
             <br></br>
             <br></br>
+            <div className="slide">
             <ImageSlider />
+            </div>
         </>
     );
 }

@@ -5,6 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  /* background-color: #f4ebd0; */
 }
 
 * {
@@ -15,10 +16,15 @@ body {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.641);
+  background-color: black;
   width: 100%;
   overflow: hidden;
   height: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 .home {
@@ -74,7 +80,7 @@ body {
 .build {
   font-family: 'Public Sans', sans-serif;
   padding-left: 50px;
-  padding-top: 140px;
+  padding-top: 300px;
 }
 
 .btn-btn {

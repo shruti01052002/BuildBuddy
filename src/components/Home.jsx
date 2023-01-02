@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
-import { HashScroll } from "react-hash-scroll";
+import { HashLink } from 'react-router-hash-link';
 
 const Home = () => {
 
@@ -11,26 +11,27 @@ const Home = () => {
                 <ul>
                     <div>
                         <img src={logo} alt='logo'/>
-                        <li><Link>Login/Signup</Link></li>
-                        <li><Link to="/#contact">Contact</Link></li>
-                        <li><Link to="/#services">Services</Link></li>
-                        <li><Link to="/#brands">Brands</Link></li>
-                        <li><Link to="/#about">About</Link></li>
+                        <li><HashLink >Login/Signup</HashLink></li>
+                        <li><HashLink smooth to="/#contact">Contact</HashLink></li>
+                        <li><HashLink smooth to="/#services">Services</HashLink></li>
+                        <li><HashLink smooth to="/#brands">Brands</HashLink></li>
+                        <li><HashLink smooth to="/#about">About</HashLink></li>
                     </div>
                 </ul>
             </nav>
-            <HashScroll hash='#about'>
+            <section id='about'>
             <div className='build'>
                 <h1 className='lets'>Let's Build <br></br>Something <br></br>Better!</h1>
                 <h2 className='all-one'>All Your Construction Needs at One Place.</h2>
-                <Link to="/#contact"><button className='btn-btn'>GET IN TOUCH</button></Link>
+                <HashLink to="/#contact"><button className='btn-btn'>GET IN TOUCH</button></HashLink>
                 <br></br>
                 <br></br>
                 <br></br>
                 <br></br>
             </div>
-            </HashScroll>
+            </section>
         </div>
     );
 }
+
 export default Home;

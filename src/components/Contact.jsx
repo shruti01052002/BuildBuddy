@@ -3,12 +3,11 @@ import Cont from '../images/cont.png';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import { HashScroll } from "react-hash-scroll";
 
 const Contact = () => {
     return (
         <>
-        <HashScroll hash="#contact">
+        <section id="contact">
             <div className="rows">
                 <div className="cols">
                     <div className="cont_img">
@@ -36,7 +35,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            </HashScroll>
+            </section>
         </>
     );
 }

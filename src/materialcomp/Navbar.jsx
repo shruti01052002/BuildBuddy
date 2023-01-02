@@ -13,7 +13,8 @@ const Navbar = () => {
             <nav className='mat_navbar'>
                 <ul>
                     <div>
-                        <img src={logo} alt='logo' />
+                
+                        <Link to='/'><img src={logo} alt='logo' /></Link>
                         <TextField
                             id="input-with-icon-textfield"
                             placeholder="Search"

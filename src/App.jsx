@@ -2,6 +2,7 @@ import React from "react";
 import LandingPage from "./components/LandingPage";
 import { Routes, Route } from "react-router-dom";
 import Materials from "./materialcomp/Materials";
+import Build from "./buildercomp/Build";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
                 <Route path="/materials/sand" element={<Materials />} />
                 <Route path="/materials/glass" element={<Materials />} />
                 <Route path="/materials/timber" element={<Materials />} />
+                <Route path="/builders" element={<Build />} />
             </Routes>
         </>
     );

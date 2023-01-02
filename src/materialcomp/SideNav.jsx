@@ -11,7 +11,7 @@ const SideNav = () => {
                 <div className="nav_col">
                     <div className="nav_cont">
                         <div className="nav_links">
-                            <Nav activeKey={location.pathname}>
+                            <Nav activeKey={location.pathname} >
                                 <li><Link to='/materials/cement' style={{ color: "white" }}>Cement</Link></li>
                                 <li><Link to='/materials/bricks' style={{ color: "white" }}>Bricks</Link></li>
                                 <li><Link to='/materials/steel' style={{ color: "white" }}>TMT Steel</Link></li>

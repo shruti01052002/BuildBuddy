@@ -17,7 +17,7 @@ const image = [
     {
         id: 1,
         src: ambuja,
-        alt: 'ambuja'
+        alt: 'ambuja',
     },
     {
         id: 2,

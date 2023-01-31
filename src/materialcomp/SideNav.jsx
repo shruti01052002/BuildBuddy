@@ -12,13 +12,13 @@ const SideNav = () => {
                     <div className="nav_cont">
                         <div className="nav_links">
                             <Nav activeKey={location.pathname} >
-                                <li><Link to='/materials/cement' style={{ color: "white" }}>Cement</Link></li>
-                                <li><Link to='/materials/bricks' style={{ color: "white" }}>Bricks</Link></li>
-                                <li><Link to='/materials/steel' style={{ color: "white" }}>TMT Steel</Link></li>
-                                <li><Link to='/materials/concrete' style={{ color: "white" }}>Concrete</Link></li>
-                                <li><Link to='/materials/sand' style={{ color: "white" }}>Sand</Link></li>
-                                <li><Link to='/materials/glass' style={{ color: "white" }}>Glass</Link></li>
-                                <li><Link to='/materials/timber' style={{ color: "white" }}>Timber</Link></li>
+                                <li><Link to='/BuildBuddy/materials/cement' style={{ color: "white" }}>Cement</Link></li>
+                                <li><Link to='/BuildBuddy/materials/bricks' style={{ color: "white" }}>Bricks</Link></li>
+                                <li><Link to='/BuildBuddy/materials/steel' style={{ color: "white" }}>TMT Steel</Link></li>
+                                <li><Link to='/BuildBuddy/materials/concrete' style={{ color: "white" }}>Concrete</Link></li>
+                                <li><Link to='/BuildBuddy/materials/sand' style={{ color: "white" }}>Sand</Link></li>
+                                <li><Link to='/BuildBuddy/materials/glass' style={{ color: "white" }}>Glass</Link></li>
+                                <li><Link to='/BuildBuddy/materials/timber' style={{ color: "white" }}>Timber</Link></li>
                             </Nav>
                         </div>
                     </div>

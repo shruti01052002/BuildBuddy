@@ -12,7 +12,7 @@ import Card from "./Card";
 const CardRender = () => {
     const location = useLocation();
     const currpath = location.pathname;
-    if (currpath === `/materials/cement`) {
+    if (currpath === `/BuildBuddy/materials/cement`) {
         return (
             <>
                 {
@@ -22,7 +22,7 @@ const CardRender = () => {
                 }
             </>
         );
-    } else if (currpath === `/materials/bricks`) {
+    } else if (currpath === `/BuildBuddy/materials/bricks`) {
         return (
             <>
                 {
@@ -32,7 +32,7 @@ const CardRender = () => {
                 }
             </>
         );
-    } else if (currpath === `/materials/steel`) {
+    } else if (currpath === `/BuildBuddy/materials/steel`) {
         return (
             <>
                 {
@@ -42,7 +42,7 @@ const CardRender = () => {
                 }
             </>
         );
-    } else if (currpath === `/materials/concrete`) {
+    } else if (currpath === `/BuildBuddy/materials/concrete`) {
         return (
             <>
                 {
@@ -52,7 +52,7 @@ const CardRender = () => {
                 }
             </>
         );
-    } else if (currpath === `/materials/sand`) {
+    } else if (currpath === `/BuildBuddy/materials/sand`) {
         return (
             <>
                 {
@@ -62,7 +62,7 @@ const CardRender = () => {
                 }
             </>
         );
-    } else if (currpath === `/materials/glass`) {
+    } else if (currpath === `/BuildBuddy/materials/glass`) {
         return (
             <>
                 {
@@ -72,7 +72,7 @@ const CardRender = () => {
                 }
             </>
         );
-    } else if (currpath === `/materials/timber`) {
+    } else if (currpath === `/BuildBuddy/materials/timber`) {
         return (
             <>
                 {

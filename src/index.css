@@ -198,3 +198,28 @@ body {
   align-items: center;
   /* color: rgb(54, 116, 186); */
 }
+
+
+
+
+
+
+
+.login {
+  background-color: #f4ebd0;
+}
+.signup {
+  padding-top: 200px;
+  /* padding-left: 400px; */
+  text-align: center;
+}
+.login-text {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 40px;
+}
+.login-box {
+  display: flex;
+}
+.input-div {
+  padding-top: 30px;
+}

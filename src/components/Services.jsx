@@ -33,13 +33,13 @@ const Services = () => {
                         <div className="card">
                             <img src={builder} alt="builder" className="image"></img>
                             <div className="button_div">
-                            <Link to='/builders'><Button className="card-text" style={btnStyle}> BUILDERS </Button></Link>
+                            <Link to='/BuildBuddy/builders'><Button className="card-text" style={btnStyle}> BUILDERS </Button></Link>
                             </div>
                         </div>
                         <div className="card">
                             <img src={materials} alt="materials" className="image"></img>
                             <div className="button_div">
-                                <Link to='/materials/cement'><Button className="card-text" style={btnStyle}> MATERIALS </Button></Link>
+                                <Link to='/BuildBuddy/materials/cement'><Button className="card-text" style={btnStyle}> MATERIALS </Button></Link>
                             </div>
                         </div>
                     </div>

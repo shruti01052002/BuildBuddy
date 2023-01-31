@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BuildBuddy/static/css/main.ab1a3b0b.css",
-    "main.js": "/BuildBuddy/static/js/main.733117b7.js",
+    "main.css": "/BuildBuddy/static/css/main.1cbb4b8a.css",
+    "main.js": "/BuildBuddy/static/js/main.b02743fe.js",
     "static/media/builderimg.jpg": "/BuildBuddy/static/media/builderimg.c425a824f0cb0350f6c5.jpg",
     "static/media/bg.png": "/BuildBuddy/static/media/bg.d26df953b99a4665387c.png",
     "static/media/cont.png": "/BuildBuddy/static/media/cont.d9528fd018dabbaaa07b.png",
@@ -35,11 +35,11 @@
     "static/media/slick.ttf": "/BuildBuddy/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/BuildBuddy/index.html",
     "static/media/slick.woff": "/BuildBuddy/static/media/slick.295183786cd8a1389865.woff",
-    "main.ab1a3b0b.css.map": "/BuildBuddy/static/css/main.ab1a3b0b.css.map",
-    "main.733117b7.js.map": "/BuildBuddy/static/js/main.733117b7.js.map"
+    "main.1cbb4b8a.css.map": "/BuildBuddy/static/css/main.1cbb4b8a.css.map",
+    "main.b02743fe.js.map": "/BuildBuddy/static/js/main.b02743fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab1a3b0b.css",
-    "static/js/main.733117b7.js"
+    "static/css/main.1cbb4b8a.css",
+    "static/js/main.b02743fe.js"
   ]
 }

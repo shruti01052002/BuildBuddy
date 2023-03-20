@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Materials from "./materialcomp/Materials";
 import Build from "./buildercomp/Build";
 import LoginForm from "./components/LoginForm";
+import CustomerForm from "./components/CustomerForm";
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <Routes>
                 <Route path="/BuildBuddy" element={<LandingPage />} />
                 <Route path="/BuildBuddy/signup" element={<LoginForm />} />
+                <Route path="/BuildBuddy/signup/customers" element={<CustomerForm />} />
                 <Route path="/BuildBuddy/materials/cement" element={<Materials />} />
                 <Route path="/BuildBuddy/materials/bricks" element={<Materials />} />
                 <Route path="/BuildBuddy/materials/steel" element={<Materials />} />

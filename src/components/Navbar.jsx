@@ -8,11 +8,12 @@ const Navbar = () => {
                 <ul>
                     <div>
                         <img src={logo} alt='logo' />
-                        <li><HashLink smooth to="/BuildBuddy/signup">Signup/Login</HashLink></li>
-                        <li><HashLink smooth to="#contact">Contact</HashLink></li>
-                        <li><HashLink smooth to="#services">Services</HashLink></li>
-                        <li><HashLink smooth to="#brands">Brands</HashLink></li>
-                        <li><HashLink smooth to="#about">About</HashLink></li>
+                        <li><HashLink smooth to="/BuildBuddy/signup">Login</HashLink></li>
+                        <li><HashLink smooth to="/BuildBuddy/signup">Signup</HashLink></li>
+                        <li><HashLink smooth to="/BuildBuddy#contact">Contact</HashLink></li>
+                        <li><HashLink smooth to="/BuildBuddy#services">Services</HashLink></li>
+                        <li><HashLink smooth to="/BuildBuddy#brands">Brands</HashLink></li>
+                        <li><HashLink smooth to="/BuildBuddy#about">About</HashLink></li>
                     </div>
                 </ul>
             </nav>

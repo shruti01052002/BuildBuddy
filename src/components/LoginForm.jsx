@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
-
+import { HashLink } from 'react-router-hash-link';
+import Footer from "./Footer";
 const LoginForm = () => {
     return (
         <>-
@@ -9,41 +10,42 @@ const LoginForm = () => {
             <div className="signup">
                 <div className="login-form">
                     <div className="form-box solid">
-                        <form>
-                            <h1 className="login-text">Sign Up</h1>
-                            <div className="input-div">
-                            <div className="fname">
-                                <label>First Name</label><br></br>
-                                <input
-                                    type="text"
-                                    name="fname"
-                                    className="1ogin-box"
-                                /><br></br>
+                        <div class="row1">
+                            <div class="column1">
+                                <div class="card1">
+                                <h2 className="join_krlo">Join Us as Customer</h2>
+                                <p>Buy Superior Materials</p>
+                                <p>Hire Assured Architects</p>
+                                <p>Get Best Quality Services</p>
+                                <HashLink to="/BuildBuddy/signup/customers"><button className='btn-btn-btn'>Sign Up</button></HashLink>
+                                <p>Already have an account?<br/><a href="" style={{color:"black", fontWeight:"30px"}}>Login</a></p>
+                                </div>
                             </div>
-                            <label>Last Name</label><br></br>
-                            <input
-                                type="text"
-                                name="lname"
-                                className="1ogin-box"
-                            /><br></br>
-                            <label>Username</label><br></br>
-                            <input
-                                type="text"
-                                name="username"
-                                className="1ogin-box"
-                            /><br></br>
-                            <label>Password</label><br></br>
-                            <input
-                                type="password"
-                                name="password"
-                                className="1ogin-box"
-                            /><br></br>
-                            <input type="submit" value="LOGIN" className="login-btn" />
+                            <div class="column1">
+                                <div class="card1">
+                                <h2 className="join_krlo">Join Us as Vendor</h2>
+                                <p>List Out Materials and Services</p>
+                                <p>Hire Assured Architects</p>
+                                <p>Get Best Quality Services</p>
+                                <HashLink to="/BuildBuddy/signup/customers"><button className='btn-btn-btn'>Sign Up</button></HashLink>
+                                <p>Already have an account?<br/><a href="" style={{color:"black", fontWeight:"30px"}}>Login</a></p>
+                                </div>
                             </div>
-                        </form>
+                            <div class="column1">
+                                <div class="card1">
+                                <h2 className="join_krlo">Join Us as Architects</h2>
+                                <p>List Out Materials and Services</p>
+                                <p>Hire Assured Architects</p>
+                                <p>Get Best Quality Services</p>
+                                <HashLink to="/BuildBuddy/signup/customers"><button className='btn-btn-btn'>Sign Up</button></HashLink>
+                                <p>Already have an account?<br/><a href="" style={{color:"black", fontWeight:"30px"}}>Login</a></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+            <Footer/>
             </div>
         </>
     );
